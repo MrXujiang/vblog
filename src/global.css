@@ -1,0 +1,32 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #06c;
+}
+
+/* 公共部分 */
+.cw {
+  display: flex;
+  width: 83%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.cw.cw-70 {
+  width: 70%;
+}
+.cw.cw-60 {
+  width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .cw.cw-60 {
+    width: 90%;
+  }
+}
